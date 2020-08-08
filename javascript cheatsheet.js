@@ -49,13 +49,20 @@ Declaring and Initialization of variables
 2. using "let" keyword
 3. using "const" keyword
 
-var keyword- it declares global variable which can be use anywhere inside a program
+var keyword- it declares globaly/function scoped variables which can be use anywhere inside a program/function
 variables declared with var keyword can change there value later in program.
 
-const keyword- it declares global variable which can be use anywhere inside a program
-variables declared with "const" keyword cannot change there value later in program.
+const keyword- variables declared with "const" keyword cannot change there value later in program. Also variables declared with const keyword
+can not be declared only they have to be initialized at the time of creation.
 
-let keyword- its a local variable it can only be used inside a scope in which it is defined.
+let keyword- variables declared with "let" keyword can only be accessed inside a scope in which it is defined. variables with "let" keyword
+can be reassigned a value like "var".
+
+Note : -
+1. variables declared with const and let keyword have a block scope but variables declared with the var keyword have function scope.
+2. variables declared with var,let and const get hoisted but variable declared with var gets initialzed with undefined while variables declared
+with let and const do not.
+
 
 *******************************/
 
